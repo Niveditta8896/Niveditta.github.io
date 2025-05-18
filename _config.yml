@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title:Hi,I am Niveditta
+title:Niveditta's Data Science Portfolio
 
 # Your name to show in the footer
 author: Niveditta Rajagopal
@@ -20,11 +20,11 @@ author: Niveditta Rajagopal
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Home: "index.html"
+  About: "aboutme"
+  Projects: "#projects"
+  GitHub: "https://github.com/Niveditta8896"
+  LinkedIn: "https://www.linkedin.com/in/www.linkedin.com/in/niveditta-rajgopal-a17285187/"
 
 ################
 # --- Logo --- #
@@ -50,14 +50,9 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  email: "rajagopalniveditta@gmail.com"
+  github: Niveditta8896
+  linkedin: niveditta-rajgopal-a17285187
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -86,7 +81,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss: true
 
 ###########################
 # --- General options --- #
@@ -102,7 +97,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "https://niveditta8896.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -128,7 +123,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+#keywords: "data analyst, SQL, Tableau, Power BI, Excel, Python, Niveditta portfolio"
 
 ######################################
 # --- Colours / background image --- #
@@ -260,7 +255,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -277,8 +272,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
